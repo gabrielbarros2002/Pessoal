@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f5eb; /* Marrom pastel para o fundo */
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #8d6e63; /* Marrom mais escuro para o cabeçalho */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alteração para empilhar elementos verticalmente */
+}
+
+div {
+    width: 100%; /* Largura total para ocupar toda a largura da main */
+    margin-bottom: 20px; /* Adiciona um espaço entre as divs */
+}
+
+h2 {
+    color: #5d4037; /* Marrom ainda mais escuro para os títulos */
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+button {
+    background-color: #3498db; /* Cor de fundo padrão para os botões */
+    color: #fff;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor de fundo no hover */
+}
+
+/* Adicione o estilo específico para o botão "Não" */
+#naoButton {
+    background-color: #e74c3c; /* Cor de fundo específica para o botão "Não" */
+}
+
+footer {
+    background-color: #8d6e63; /* Marrom mais escuro para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+img {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
